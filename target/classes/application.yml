@@ -1,0 +1,16 @@
+server:
+  port: 0  # no web endpoints required; random port
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.client.RestTemplate: INFO
+
+bfh:
+  # TODO: Replace these with your details
+  name: "John Doe"
+  regNo: "REG12347"
+  email: "john@example.com"
+
+  # Put your FINAL SQL query here (string). Example below:
+  finalQuery: "SELECT 1"

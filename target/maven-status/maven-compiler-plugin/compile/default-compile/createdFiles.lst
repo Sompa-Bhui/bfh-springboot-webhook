@@ -1,0 +1,7 @@
+com\example\bfh\config\AppProperties.class
+com\example\bfh\dto\GenerateWebhookResponse.class
+com\example\bfh\dto\GenerateWebhookRequest.class
+com\example\bfh\dto\SubmitSolutionRequest.class
+META-INF\spring-configuration-metadata.json
+com\example\bfh\App.class
+com\example\bfh\service\WebhookService.class

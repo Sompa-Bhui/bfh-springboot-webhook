@@ -52,7 +52,7 @@ public class WebhookService {
         String regNo = props.getRegNo();
         int lastTwo = 0;
         try {
-            String digits = regNo.replaceAll("\D", "");
+            String digits = regNo.replaceAll("D", "");
             if (digits.length() >= 2) {
                 lastTwo = Integer.parseInt(digits.substring(digits.length() - 2));
             } else if (digits.length() == 1) {

@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "bfh",
+      "type": "com.example.bfh.config.AppProperties",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bfh.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties",
+      "defaultValue": "https:\/\/bfhldevapigw.healthrx.co.in\/hiring"
+    },
+    {
+      "name": "bfh.email",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.final-query",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.reg-no",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    }
+  ],
+  "hints": []
+}
